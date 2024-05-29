@@ -6,6 +6,8 @@ terraform {
     }
   }
   
+  # Salvar o tfstate no bucket da aws
+  
   # backend "s3" {
   #   bucket = "Nome do bucket criado na aws"
   #   key = 
