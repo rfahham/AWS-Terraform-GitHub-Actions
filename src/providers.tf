@@ -5,9 +5,12 @@ terraform {
       version = "5.48.0"
     }
   }
-  backend "s3" {
-
-  }
+  
+  # backend "s3" {
+  #   bucket = "Nome do bucket criado na aws"
+  #   key = 
+  #   region = "us-east-1"
+  # }
 }
 
 provider "aws" {

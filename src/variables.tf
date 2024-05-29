@@ -5,55 +5,55 @@ variable "aws_region" {
 }
 
 variable "aws_vpc_name" {
-  description = "Colocar sempre a descrição"
+  description = "Nome da VPC"
   type        = string
   nullable    = false
 }
 
 variable "aws_vpc_cidr" {
-  description = "Colocar sempre a descrição"
+  description = "CIDR da VPC"
   type        = string
   nullable    = false
 }
 
 variable "aws_vpc_azs" {
-  description = "Colocar sempre a descrição"
+  description = "Zonas disponíveis"
   type        = set(string)
   nullable    = false
 }
 
 variable "aws_vpc_private_subnets" {
-  description = "Colocar sempre a descrição"
+  description = "Subnet Privada"
   type        = set(string)
   nullable    = false
 }
 
 variable "aws_vpc_public_subnets" {
-  description = "Colocar sempre a descrição"
+  description = "Subnet Pública"
   type        = set(string)
   nullable    = false
 }
 
 variable "aws_eks_name" {
-  description = "Colocar sempre a descrição"
+  description = "Nome do CLuster"
   type        = string
   nullable    = false
 }
 
 variable "aws_eks_version" {
-  description = "Colocar sempre a descrição"
+  description = "Versão do módulo"
   type        = string
   nullable    = false
 }
 
 variable "aws_eks_managed_node_groups_instance_types" {
-  description = "Colocar sempre a descrição"
+  description = "Tipo de instâncias dos nodes"
   type        = set(string)
   nullable    = false
 }
 
 variable "aws_project_tags" {
-  description = "Colocar sempre a descrição"
+  description = "Tags do projeto"
   type        = map(any)
   nullable    = false
 }
